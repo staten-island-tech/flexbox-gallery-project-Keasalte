@@ -1,10 +1,41 @@
 body,
 html,
 *{
+    background-color: #3c5d60;
     margin:0;
     padding:0;
     font-size:10px;
     font-family: 'Long Cang', cursive;
+}
+
+body{
+    background: linear-gradient(to top,
+    #24363d, #112f2b, #38655a, #4d685e
+    );
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display:block;
+    margin:0 auto;
+    margin-top:1rem;
+    margin-bottom: 2rem;
+}
+
+.header{
+    color:#d7cfb9;
+    background-color: #357469;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:999;
+    font-size: 10rem;
+    text-align:center;
+
 }
 
 .big{
@@ -14,16 +45,26 @@ html,
     margin: 1rem auto;
     background-color: #9baa9f;
     justify-content: space-around;
+    margin-top:100;
+
 }
 
 .small{
-    height:50vh;
+    background-color: #7d9686;
     margin-top: 2.5rem;
-    width:27%
-    
-
+    margin-bottom:2.5rem;
+    width:27%;
 }
 
+.Songname{
+    color:#d7cfb9;
+    font-size:4.4rem;
+}
+
+.name{
+    color:#d7cfb9;
+    font-size:2.2rem;
+}
 
 
 

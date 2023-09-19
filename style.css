@@ -1,73 +1,69 @@
 body,
 html,
-*{
-    background-color: #3c5d60;
-    margin:0;
-    padding:0;
-    font-size:10px;
-    font-family: 'Long Cang', cursive;
+* {
+  background-color: #3c5d60;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: "Long Cang", cursive;
 }
 
-body{
-    background: linear-gradient(to top,
-    #24363d, #112f2b, #38655a, #4d685e
-    );
+body {
+  background: linear-gradient(to top, #24363d, #112f2b, #38655a, #4d685e);
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-img{
-    display:block;
-    margin:0 auto;
-    margin-top:1rem;
-    margin-bottom: 2rem;
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
-.header{
-    color:#d7cfb9;
-    background-color: #357469;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    z-index:999;
-    font-size: 10rem;
-    text-align:center;
-
+.header {
+  color: #d7cfb9;
+  background-color: #357469;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  font-size: 10rem;
+  text-align: center;
 }
 
-.big{
-    display:flex;
-    flex-wrap: wrap;
-    width:80vw;
-    margin: 1rem auto;
-    background-color: #9baa9f;
-    justify-content: space-around;
-    margin-top:100;
-    margin-bottom:auto;
-
+.big {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 1rem auto;
+  background-color: #9baa9f;
+  justify-content: space-around;
+  margin-top: 100;
+  margin-bottom: auto;
+  padding-bottom: 22px;
+  box-shadow: inset 0 0 20px 20px #4d685e;
+  border-radius: 3%;
 }
 
-.small{
-    background-color: #7d9686;
-    margin-top: 2.5rem;
-    margin-bottom:2.5rem;
-    width:27%;
+.small {
+  background-color: #7d9686;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 27%;
+  box-shadow: 10px 10px 10px #112f2b, 20px 20px 20px #357469;
+  border-radius: 3%;
 }
 
-.Songname{
-    color:#d7cfb9;
-    font-size:4.4rem;
+.Songname {
+  color: #d7cfb9;
+  font-size: 4.4rem;
 }
 
-.name{
-    color:#d7cfb9;
-    font-size:2.2rem;
+.name {
+  color: #d7cfb9;
+  font-size: 2.2rem;
 }
-
-
-
-
-

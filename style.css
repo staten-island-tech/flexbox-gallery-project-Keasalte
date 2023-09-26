@@ -57,6 +57,7 @@ img {
   width: 21%;
   box-shadow: 10px 10px 10px #112f2b, 20px 20px 20px #357469;
   border-radius: 3%;
+  transition: all 0.3s;
 }
 
 .Songname {
@@ -75,4 +76,21 @@ div.small:hover{
 
 div#first:hover{
   background-color: #d7cfb9;
+}
+
+div#second:hover{
+  transform: scale(1.1);
+  outline:1rem solid #24363d;
+}
+
+
+div#third:hover{
+  animaton-name: corner;
+  animation-timing-function: ease;
+  z-index: 900;
+}
+
+@keyframes corners{
+  0% { transform: translation(0);}
+  
 }

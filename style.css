@@ -131,47 +131,43 @@ div.small:hover {
   transform: rotateX(360deg);
 }
 
-@media screen and (max-width:800px) {
-  .small{
-    width:40%;
-    margin-bottom: 5rem;
+@media screen and (max-width: 3000px) {
+  .small {
+    width: 21%;
   }
-  body,
-  html,
-  * {
-    font-size: 0.2rem;
-  }
-
   .header{
-    font-size:31rem;
+    font-size: 9.4rem;
+    padding-bottom: 2.9rem;
   }
-
   img{
     width:100%;
-    height: 100%;
   }
-
+  html{
+    font-size:0.5rem;
+  }
 }
 
-
-@media screen and (max-width:400px) {
-  .small{
-    width:40%;
-    margin-bottom: 5rem;
+@media screen and (max-width: 1023px) {
+  .small {
+    width: 38%;
   }
-  body,
-  html,
-  * {
-    font-size: 0.2rem;
-  }
-
   .header{
-    font-size:31rem;
+    font-size: 9.4rem;
+    padding-bottom: 2.9rem;
   }
-
   img{
     width:100%;
-    height: 100%;
   }
-
+  html{
+    font-size:0.5rem;
+  }
 }
+
+  @media  screen and (max-width: 767px) {
+    .small{
+      width: 70%
+    }
+    img{
+      width:100%;
+    }
+  }
